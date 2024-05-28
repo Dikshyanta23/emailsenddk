@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="emailForm">
+        <h2>Send Emails</h2>
+        <div id="emailFields">
+          <label for="email">Email ID:</label>
+          <input type="email" name="email" required />
+        </div>
+        <button type="button" id="addEmail">Add Another Email</button>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+        <label for="text">Text:</label>
+        <textarea id="text" name="text" rows="4" required></textarea>
+        <button type="submit" class="submit-btn">Send Emails</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
